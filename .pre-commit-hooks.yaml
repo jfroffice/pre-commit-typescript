@@ -1,10 +1,9 @@
 -   id: typescript
     name: typescript
     description: ''
-    entry: tsc
+    entry: yarn exec tsc
     language: node
-    'files': \.(ts|tsx)$
     args: []
     require_serial: false
-    additional_dependencies: ["typescript@5.3.2"]
+    additional_dependencies: ["typescript@5.3.3"]
     minimum_pre_commit_version: '0'
